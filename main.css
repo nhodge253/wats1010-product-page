@@ -3,7 +3,7 @@
 
 body {
     color: #fde0b5;
-    background-image: url('/img/blueshade.jpg');
+    background-image: url('img/blueshade.jpg');
 }
 
 header h1 {
@@ -76,7 +76,7 @@ ul.main-nav li {
     background-repeat: no-repeat;
     background-size: 300px 500px;
     background-image:
-    url('/img/skyscraper.jpg');    
+    url('img/skyscraper.jpg');    
     float: left;
 }
 
