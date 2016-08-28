@@ -96,7 +96,7 @@ ul.main-nav li {
     float: left;
     width: 800px;
     padding: 0 60px;
-    font-size: 33px;
+    font-size: 31px;
     text-align: center;
 }
 
@@ -106,7 +106,7 @@ ul.main-nav li {
 }
 
 #intro {
-   color: red;
+   font-family: 'Oswald', cursive;
    /*display: inline-block;*/
 }
 
@@ -117,27 +117,47 @@ ul.main-nav li {
   /*text-align: center;*/
 }
 
+#features {
+  font-family: 'Oswald', sans-serif;
+}
+
+#features p {
+  font-size: 15px;
+}
+
 .save-time {
   float: left;
   text-align: center;
-  max-width:30%;
-  height:25%;
+  max-width:33.3%;
+  height:200px;
   border-style: solid;
   border-size: 10px;
+  margin-left: 70px;
 }
 
 .one-stop {
-  float: center;
+  float: left;
   text-align: center;
   border-style: solid;
   border-size: 10px;
+  height: 200px;
+  width: 33.3%;
 }
 
 .slick-integration {
-  float: right;
+  float: left;
   text-align: center;
   border-style: solid;
   border-size: 10px;
+  width: 33.3%;
+  height: 200px;
+}
+
+#testimonials h2 {
+  text-align: center;
+  margin-top; 10px;
+  font-family: 'jura'; sans-serif;
+  font-size: 36px;
 }
 
 img.headshot {
@@ -145,11 +165,16 @@ img.headshot {
 }
 ul.quotes {
   list-style-type:none;
+  display: inline;
+}
+ul.quotes p{
+  font-size: 15px;
 }
 
 ul.quotes li {
+  margin-left: -50px;
   display: inline-block;
-  width: 31.3%;
+  width: 33%;
   min-width: 100px;
   text-align: center;
   
