@@ -4,6 +4,7 @@
 body {
     color: #fde0b5;
     background-image: url('img/blueshade.jpg');
+    margin-left:0;
 }
 
 header h1 {
@@ -48,14 +49,29 @@ header h1 {
 ul.main-nav {
   list-style-type:none;
   width: 100%;
-  border-style: solid;
-  border-size:5px;
+  background-color:black;
 } 
 
 ul.main-nav li {
   display: inline-block;
   width: 32.3%;
   text-align:center;
+  font-family: 'Jura', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+ 
+}
+
+ul.main-nav a{
+ color: #e3e7e9;
+}
+
+ul.main-nav li:hover{
+  background-color: white;
+}
+
+ul.main-nav a:visited {
+  color: grey;
 }
 
 #signup {
@@ -65,11 +81,24 @@ ul.main-nav li {
   border-style:solid;
   border-size: 10px;
   text-align: center;
-  font-size: 40px;
+  vertical-align: center;
+  font-size: 36px;
   padding: 8px 8px 8px 8px;
   background: black;
+  font-family: impact,sans-serif;
 }
 
+#signup a{
+ color: #e3e7e9;
+}
+
+#signup a:hover{
+  background-color: white;
+}
+
+#signup a:visited {
+  color: grey;
+}
 
 
 #skyscraper {
@@ -160,15 +189,21 @@ ul.main-nav li {
   font-size: 36px;
 }
 
+
 img.headshot {
   border-radius:40%;
+  margin-left: 130px;
 }
 ul.quotes {
   list-style-type:none;
   display: inline;
+  margin-bottom: 40px;
 }
 ul.quotes p{
   font-size: 15px;
+  height:50px;
+  width: 33%;
+  margin-left: 275px;
 }
 
 ul.quotes li {
@@ -177,5 +212,9 @@ ul.quotes li {
   width: 33%;
   min-width: 100px;
   text-align: center;
-  
+}
+#contact {
+  text-align:center;
+  margin-top: 35px;
+  font-family: 'Oswald', sans-serif;
 }
