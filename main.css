@@ -5,6 +5,7 @@ body {
     color: #fde0b5;
     background-image: url('img/blueshade.jpg');
     margin-left:0;
+    margin-right: 0;
 }
 
 header h1 {
@@ -40,11 +41,18 @@ header h1 {
 #social img {
     opacity: 1.0;
     filter: alpha(opacity=50); /* For IE8 and earlier */
+    height: 42px;
+    width: 42px;
 }
 
 #social img:hover {
     opacity: 0.5;
     filter: alpha(opacity=100); /* For IE8 and earlier */
+      -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+     transition-duration: 1s;
+     border-radius:50%;
 }
 ul.main-nav {
   list-style-type:none;
@@ -68,6 +76,7 @@ ul.main-nav a{
 
 ul.main-nav li:hover{
   background-color: white;
+  transition-duration: .5s;
 }
 
 ul.main-nav a:visited {
@@ -88,12 +97,18 @@ ul.main-nav a:visited {
   font-family: impact,sans-serif;
 }
 
+#signup:hover {
+    box-shadow: inset 0 0 0 100px #00a1ff;
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
+}
 #signup a{
  color: #e3e7e9;
 }
 
 #signup a:hover{
-  background-color: white;
+ opacity: 0.5;
+    filter: alpha(opacity=100); /* For IE8 and earlier */   
 }
 
 #signup a:visited {
@@ -101,14 +116,9 @@ ul.main-nav a:visited {
 }
 
 
-#skyscraper {
-    width: 500px;
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: 300px 500px;
-    background-image:
-    url('img/skyscraper.jpg');    
-    float: left;
+.techtimmy {   
+    height:600px;
+    width: 100%;
 }
 
 #about {
@@ -148,6 +158,7 @@ ul.main-nav a:visited {
 
 #features {
   font-family: 'Oswald', sans-serif;
+  margin-top: 3%;
 }
 
 #features p {
@@ -159,16 +170,12 @@ ul.main-nav a:visited {
   text-align: center;
   max-width:33.3%;
   height:200px;
-  border-style: solid;
-  border-size: 10px;
-  margin-left: 70px;
+  margin-left: 6%;
 }
 
 .one-stop {
   float: left;
   text-align: center;
-  border-style: solid;
-  border-size: 10px;
   height: 200px;
   width: 33.3%;
 }
@@ -176,8 +183,6 @@ ul.main-nav a:visited {
 .slick-integration {
   float: left;
   text-align: center;
-  border-style: solid;
-  border-size: 10px;
   width: 33.3%;
   height: 200px;
 }
@@ -193,6 +198,8 @@ ul.main-nav a:visited {
 img.headshot {
   border-radius:40%;
   margin-left: 130px;
+  width: 240px;
+  height: 220px;
 }
 ul.quotes {
   list-style-type:none;
