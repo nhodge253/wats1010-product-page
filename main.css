@@ -4,6 +4,8 @@
 body {
     color: #fde0b5;
     background-image: url('img/blueshade.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     margin-left:0;
     margin-right: 0;
 }
