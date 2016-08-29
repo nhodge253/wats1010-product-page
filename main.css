@@ -165,6 +165,8 @@ ul.main-nav a:visited {
 
 #features p {
   font-size: 15px;
+  width: 33.3%;
+  margin-left: 33%;
 }
 
 .save-time {
